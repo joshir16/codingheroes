@@ -18,6 +18,10 @@
     top: 8rem;
   }
 
+  @media only screen and (max-height: $bp-medium) and (orientation: landscape) {
+    top: 8rem;
+  }
+
   &__box {
     width: 25rem;
   }
