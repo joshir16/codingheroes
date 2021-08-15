@@ -62,6 +62,11 @@
     padding: 2rem;
   }
 
+  @media only screen and (max-width: $bp-small) {
+    height: 35vh;
+    justify-content: space-evenly;
+  }
+
   &__heading {
     font-size: 3.5rem;
     text-align: center;
@@ -126,6 +131,7 @@
 
   @media only screen and (max-width: $bp-small) {
     width: 40rem;
+    gap: 5rem;
   }
 
   &__box {
