@@ -52,7 +52,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #111;
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.3) 0%, rgba(44, 44, 44, 0.7) 100%), url(/img/photo-3.jpg);
+  background-size: cover;
+  background-position: center;
   animation: mainBox 0.5s 2.5s ease-out forwards; }
   .logo__box {
     width: 45rem;
@@ -242,7 +244,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  color: #fff; }
   @media only screen and (max-width: 75em) {
     .text {
       grid-column: 2 / 6;
@@ -259,7 +262,6 @@ body {
     font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
-    color: #0a005a;
     letter-spacing: 1.2px;
     font-weight: 700;
     opacity: 0;
@@ -270,7 +272,6 @@ body {
   .text__sec-heading {
     font-size: 3rem;
     text-align: center;
-    color: #0a005a;
     font-weight: 500;
     opacity: 0;
     animation: fadeInLeft 0.8s 3.2s ease-in-out forwards; }
@@ -314,10 +315,11 @@ body {
       width: 90%;
       border-radius: 1rem;
       margin-bottom: 1rem;
-      box-shadow: 20px -10px 30px 5px rgba(27, 13, 13, 0.5);
-      transition: all 0.3s ease-in; }
+      transition: all 0.3s ease-in;
+      box-shadow: 15px -5px 15px 5px rgba(27, 13, 13, 0.5); }
       .course__box__img:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        box-shadow: 20px -10px 30px 5px rgba(27, 13, 13, 0.5); }
     .course__box__name {
       color: #fff;
       font-size: 1.8rem;
