@@ -76,14 +76,14 @@
     justify-content: space-evenly;
   }
 
-  color: #fff;
+  color: #0a005a;
 
   &__heading {
     font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.2px;
-    font-weight: 700;
+    font-weight: 500;
 
     opacity: 0;
 
@@ -168,15 +168,15 @@
       box-shadow: 15px -5px 15px 5px rgba(27, 13, 13, 0.5);
 
       &:hover {
-        transform: scale(1.1);
-        box-shadow: 20px -10px 30px 5px rgba(27, 13, 13, 0.5);
+        transform: scale(1);
+        box-shadow: 25px -10px 25px 5px rgba(27, 13, 13, 0.5);
       }
     }
 
     &__name {
       color: #fff;
       font-size: 1.8rem;
-      font-weight: 400;
+      font-weight: 700;
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 1px;
@@ -186,11 +186,14 @@
       width: 70%;
       padding: 1rem;
       border-radius: 1rem;
-      // background-color: #0046df;
-      transition: all 0.3s ease-in;
+      border: 1px solid #fff;
+
+      transition: all 0.2s ease-in;
 
       &:hover {
+        color: #fff;
         background-color: #0032c8;
+        border: none;
       }
     }
   }
