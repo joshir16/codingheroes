@@ -41,8 +41,8 @@
   @media only screen and (max-height: $bp-medium) and (orientation: landscape) {
     grid-template-rows:
       minmax(10rem, min-content)
-      repeat(6, minmax(5rem, min-content))
-      min-content;
+      repeat(6, minmax(15rem, min-content))
+      minmax(5rem, min-content);
     height: auto;
   }
 }
@@ -87,6 +87,11 @@
     opacity: 0;
 
     animation: fadeInLeft 0.8s 3s ease-in-out forwards;
+
+    &-1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
   }
 
   &__sec-heading {
